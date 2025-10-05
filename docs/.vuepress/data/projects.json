@@ -1,0 +1,50 @@
+[
+	{
+		"slug": "taskflow",
+		"title": "TaskFlow",
+		"description": "A productivity app for teams with offline-first sync.",
+		"tech": ["Vue 3", "Vite", "Firebase", "Tailwind CSS"],
+		"details": {
+			"overview": "TaskFlow is a collaborative task management application designed for modern teams. It features real-time synchronization, offline support, and intuitive drag-and-drop interfaces.",
+			"features": [
+				"Real-time collaboration with multiple team members",
+				"Offline-first architecture with automatic sync",
+				"Drag-and-drop task management",
+				"Customizable project boards and workflows",
+				"Advanced filtering and search capabilities",
+				"Mobile-responsive design"
+			],
+			"challenges": [
+				"Implementing reliable offline synchronization",
+				"Optimizing real-time updates for large teams",
+				"Creating intuitive drag-and-drop interactions"
+			],
+			"results": "Reduced team coordination time by 40% and improved task completion rates by 25%."
+		}
+	},
+	{
+		"slug": "insightboard",
+		"title": "InsightBoard",
+		"description": "Lightweight analytics dashboards, ready in minutes.",
+		"tech": ["Vue 3", "Node.js", "PostgreSQL", "Prisma"],
+		"live": "https://example.com/insightboard",
+		"repo": "https://github.com/you/insightboard",
+		"details": {
+			"overview": "InsightBoard provides instant analytics dashboards for businesses of all sizes. Setup takes minutes, not weeks, with pre-built templates and custom data connectors.",
+			"features": [
+				"One-click dashboard creation",
+				"Pre-built templates for common business metrics",
+				"Custom data source connectors",
+				"Real-time data visualization",
+				"Export capabilities (PDF, CSV)",
+				"Role-based access control"
+			],
+			"challenges": [
+				"Building flexible data connectors",
+				"Optimizing query performance for large datasets",
+				"Creating intuitive chart configuration"
+			],
+			"results": "Dashboard setup time reduced from weeks to minutes, serving 500+ active users."
+		}
+	}
+]

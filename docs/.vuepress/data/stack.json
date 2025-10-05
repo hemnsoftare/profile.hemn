@@ -1,0 +1,27 @@
+[
+	{
+		"title": "Core",
+		"items": [
+			{ "name": "TypeScript" },
+			{ "name": "Vue 3" },
+			{ "name": "Vite" },
+			{ "name": "Node.js" }
+		]
+	},
+	{
+		"title": "Tooling",
+		"items": [
+			{ "name": "pnpm" },
+			{ "name": "ESLint" },
+			{ "name": "Prettier" }
+		]
+	},
+	{
+		"title": "Cloud",
+		"items": [
+			{ "name": "Vercel" },
+			{ "name": "Netlify" }
+		]
+	}
+]
+

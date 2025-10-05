@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <meta property="og:url" content="https://example.com/projects/insightboard.html"><meta property="og:site_name" content="John Doe"><meta property="og:title" content="InsightBoard - Project Details"><meta property="og:description" content="Lightweight analytics dashboards, ready in minutes"><meta property="og:type" content="article"><meta property="og:locale" content="en-US"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"InsightBoard - Project Details","image":[""],"dateModified":null,"author":[]}</script><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0ea5e9"><link rel="icon" href="/favicon.svg"><link rel="canonical" href="https://example.com"><title>InsightBoard - Project Details | John Doe</title><meta name="description" content="Lightweight analytics dashboards, ready in minutes">
+    <link rel="preload" href="/assets/style-BBphUj-C.css" as="style"><link rel="stylesheet" href="/assets/style-BBphUj-C.css">
+    <link rel="modulepreload" href="/assets/app-Cud-APdA.js"><link rel="modulepreload" href="/assets/insightboard.html-f-deUFXv.js">
+    <link rel="prefetch" href="/assets/index.html-Di4nHYok.js" as="script"><link rel="prefetch" href="/assets/about.html-VIPgJUDg.js" as="script"><link rel="prefetch" href="/assets/contact.html-B-qyLNtt.js" as="script"><link rel="prefetch" href="/assets/get-started.html-oQCiWEOu.js" as="script"><link rel="prefetch" href="/assets/stack.html-CusImXBC.js" as="script"><link rel="prefetch" href="/assets/index.html-svWbpe5v.js" as="script"><link rel="prefetch" href="/assets/taskflow.html-CI4cCcpx.js" as="script"><link rel="prefetch" href="/assets/404.html-C7Wga5j_.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container no-navbar external-link-icon" vp-container><!--[--><!----><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar" vp-sidebar><!----><!--[--><!--]--><ul class="vp-sidebar-items"><!--[--><li><p tabindex="0" class="vp-sidebar-item vp-sidebar-heading">Dashboard <!----></p><ul class="vp-sidebar-children" style=""><!--[--><li><a class="route-link auto-link vp-sidebar-item" href="/" aria-label="🏠 Home"><!--[--><!--[--><!--]--><!--]-->🏠 Home<!--[--><!--[--><!--]--><!--]--></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/stack.html" aria-label="⚙️ Tech Stack"><!--[--><!--[--><!--]--><!--]-->⚙️ Tech Stack<!--[--><!--[--><!--]--><!--]--></a><!----></li><li><a class="route-link route-link-active auto-link vp-sidebar-item" href="/projects/" aria-label="🛠 Projects"><!--[--><!--[--><!--]--><!--]-->🛠 Projects<!--[--><!--[--><!--]--><!--]--></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/about.html" aria-label="🙋 About"><!--[--><!--[--><!--]--><!--]-->🙋 About<!--[--><!--[--><!--]--><!--]--></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/contact.html" aria-label="✉️ Contact"><!--[--><!--[--><!--]--><!--]-->✉️ Contact<!--[--><!--[--><!--]--><!--]--></a><!----></li><!--]--></ul></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="vp-page"><!--[--><!--]--><div vp-content><!--[--><!--]--><div><h1 id="insightboard" tabindex="-1"><a class="header-anchor" href="#insightboard"><span>InsightBoard</span></a></h1><div class="project-header"><div class="project-links"><a href="https://example.com/insightboard" target="_blank" rel="noopener">🌐 Live Demo</a><a href="https://github.com/you/insightboard" target="_blank" rel="noopener">📁 GitHub</a></div></div><h2 id="overview" tabindex="-1"><a class="header-anchor" href="#overview"><span>Overview</span></a></h2><p>InsightBoard provides instant analytics dashboards for businesses of all sizes. Setup takes minutes, not weeks, with pre-built templates and custom data connectors.</p><h2 id="key-features" tabindex="-1"><a class="header-anchor" href="#key-features"><span>Key Features</span></a></h2><ul><li><strong>One-click dashboard creation</strong> with pre-built templates</li><li><strong>Custom data source connectors</strong> for any API or database</li><li><strong>Real-time data visualization</strong> with interactive charts</li><li><strong>Export capabilities</strong> (PDF, CSV) for reporting</li><li><strong>Role-based access control</strong> for team collaboration</li><li><strong>Mobile-optimized</strong> responsive design</li></ul><h2 id="technical-challenges" tabindex="-1"><a class="header-anchor" href="#technical-challenges"><span>Technical Challenges</span></a></h2><ul><li><strong>Data Connectors</strong>: Building flexible connectors for various data sources</li><li><strong>Query Performance</strong>: Optimizing database queries for large datasets</li><li><strong>Chart Configuration</strong>: Creating intuitive chart configuration interfaces</li><li><strong>Real-time Updates</strong>: Implementing efficient real-time data streaming</li></ul><h2 id="results" tabindex="-1"><a class="header-anchor" href="#results"><span>Results</span></a></h2><ul><li>Dashboard setup time reduced from <strong>weeks to minutes</strong></li><li>Serving <strong>500+ active users</strong> across different organizations</li><li><strong>95% uptime</strong> with sub-second response times</li><li><strong>Zero configuration</strong> required for common business metrics</li></ul><h2 id="tech-stack" tabindex="-1"><a class="header-anchor" href="#tech-stack"><span>Tech Stack</span></a></h2><ul><li><strong>Vue 3</strong> - Reactive frontend framework</li><li><strong>Node.js</strong> - Backend API server</li><li><strong>PostgreSQL</strong> - Primary database</li><li><strong>Prisma</strong> - Type-safe database ORM</li></ul><hr><p><a class="route-link" href="/projects/">← Back to Projects</a></p></div><!--[--><!--]--></div><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><!----><!----></div></footer><!----><!--[--><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-Cud-APdA.js" defer></script>
+  </body>
+</html>

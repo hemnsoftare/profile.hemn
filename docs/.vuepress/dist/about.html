@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <meta property="og:url" content="https://example.com/about.html"><meta property="og:site_name" content="John Doe"><meta property="og:title" content="About"><meta property="og:description" content="Full-Stack developer focused on DX, performance and accessibility"><meta property="og:type" content="article"><meta property="og:locale" content="en-US"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"About","image":[""],"dateModified":null,"author":[]}</script><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0ea5e9"><link rel="icon" href="/favicon.svg"><link rel="canonical" href="https://example.com"><title>About | John Doe</title><meta name="description" content="Full-Stack developer focused on DX, performance and accessibility">
+    <link rel="preload" href="/assets/style-BBphUj-C.css" as="style"><link rel="stylesheet" href="/assets/style-BBphUj-C.css">
+    <link rel="modulepreload" href="/assets/app-Cud-APdA.js"><link rel="modulepreload" href="/assets/about.html-VIPgJUDg.js">
+    <link rel="prefetch" href="/assets/index.html-Di4nHYok.js" as="script"><link rel="prefetch" href="/assets/contact.html-B-qyLNtt.js" as="script"><link rel="prefetch" href="/assets/get-started.html-oQCiWEOu.js" as="script"><link rel="prefetch" href="/assets/stack.html-CusImXBC.js" as="script"><link rel="prefetch" href="/assets/index.html-svWbpe5v.js" as="script"><link rel="prefetch" href="/assets/insightboard.html-f-deUFXv.js" as="script"><link rel="prefetch" href="/assets/taskflow.html-CI4cCcpx.js" as="script"><link rel="prefetch" href="/assets/404.html-C7Wga5j_.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container no-navbar external-link-icon" vp-container><!--[--><!----><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar" vp-sidebar><!----><!--[--><!--]--><ul class="vp-sidebar-items"><!--[--><li><p tabindex="0" class="vp-sidebar-item vp-sidebar-heading active">Dashboard <!----></p><ul class="vp-sidebar-children" style=""><!--[--><li><a class="route-link auto-link vp-sidebar-item" href="/" aria-label="🏠 Home"><!--[--><!--[--><!--]--><!--]-->🏠 Home<!--[--><!--[--><!--]--><!--]--></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/stack.html" aria-label="⚙️ Tech Stack"><!--[--><!--[--><!--]--><!--]-->⚙️ Tech Stack<!--[--><!--[--><!--]--><!--]--></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/projects/" aria-label="🛠 Projects"><!--[--><!--[--><!--]--><!--]-->🛠 Projects<!--[--><!--[--><!--]--><!--]--></a><!----></li><li><a class="route-link route-link-active auto-link vp-sidebar-item active" href="/about.html" aria-label="🙋 About"><!--[--><!--[--><!--]--><!--]-->🙋 About<!--[--><!--[--><!--]--><!--]--></a><!----></li><li><a class="route-link auto-link vp-sidebar-item" href="/contact.html" aria-label="✉️ Contact"><!--[--><!--[--><!--]--><!--]-->✉️ Contact<!--[--><!--[--><!--]--><!--]--></a><!----></li><!--]--></ul></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="vp-page"><!--[--><!--]--><div vp-content><!--[--><!--]--><div><div class="about-content"><header class="page-header"><h1 class="page-title">Developer Profile</h1><p class="page-subtitle">My background, experience, and passion for development</p></header><div class="about-intro"><p>I’m John Doe, a Full-Stack Developer who enjoys crafting performant, accessible web apps.</p></div><div class="grid grid-2"><div class="card"><div class="card-header"><h2 class="card-title">Achievements</h2><p class="card-subtitle">Key highlights and accomplishments</p></div><ul class="highlights-list"><!--[--><li>Performance-first: ship fast, measure, iterate.</li><li>Accessible by default: semantic HTML, keyboard-friendly, color-contrast aware.</li><li>Maintainable code: strong typing, clear naming, focused components.</li><!--]--></ul></div><div class="card"><div class="card-header"><h2 class="card-title">Experience</h2><p class="card-subtitle">Professional background</p></div><ul class="experience-list"><!--[--><li>Built and maintained SPA/SSG sites with Vue 3 and Vite.</li><li>Designed Node.js backends with PostgreSQL and Prisma.</li><li>Automated CI/CD workflows and preview deployments.</li><!--]--></ul></div></div></div></div><!--[--><!--]--></div><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><!----><!----></div></footer><nav class="vp-page-nav" aria-label="page navigation"><a class="route-link auto-link prev" href="/projects/" aria-label="🛠 Projects"><!--[--><div class="hint"><span class="arrow left"></span> Prev</div><div class="link"><span class="external-link">🛠 Projects</span></div><!--]--></a><a class="route-link auto-link next" href="/contact.html" aria-label="✉️ Contact"><!--[--><div class="hint">Next <span class="arrow right"></span></div><div class="link"><span class="external-link">✉️ Contact</span></div><!--]--></a></nav><!--[--><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-Cud-APdA.js" defer></script>
+  </body>
+</html>

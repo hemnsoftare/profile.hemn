@@ -1,0 +1,14 @@
+{
+	"intro": "I’m John Doe, a Full-Stack Developer who enjoys crafting performant, accessible web apps.",
+	"highlights": [
+		"Performance-first: ship fast, measure, iterate.",
+		"Accessible by default: semantic HTML, keyboard-friendly, color-contrast aware.",
+		"Maintainable code: strong typing, clear naming, focused components."
+	],
+	"experience": [
+		"Built and maintained SPA/SSG sites with Vue 3 and Vite.",
+		"Designed Node.js backends with PostgreSQL and Prisma.",
+		"Automated CI/CD workflows and preview deployments."
+	]
+}
+
