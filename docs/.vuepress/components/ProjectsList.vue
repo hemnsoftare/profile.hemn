@@ -36,6 +36,6 @@
 import projects from '../data/projects.json'
 
 const goToProject = (slug) => {
-  window.location.href = `/projects/${slug}.html`
+  window.location.href = `projects/${slug}.html`
 }
 </script>
