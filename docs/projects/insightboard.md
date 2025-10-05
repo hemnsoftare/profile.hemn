@@ -48,4 +48,4 @@ InsightBoard provides instant analytics dashboards for businesses of all sizes. 
 
 ---
 
-[← Back to Projects](/projects/)
+[← Back to Projects](projects/)

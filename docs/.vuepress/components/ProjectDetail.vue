@@ -57,7 +57,7 @@
           <a v-if="project.live" :href="project.live" target="_blank" rel="noopener" class="project-link">
             Live Demo
           </a>
-          <a v-if="project.repo" :href="project.repo" target="_blank" rel="noopener" class="project-link">
+          <a v-if="project.repo" :href="project.repo" target="_blank"  class="project-link">
             GitHub Repository
           </a>
         </div>

@@ -38,7 +38,7 @@
 <li><strong>Prisma</strong> - Type-safe database ORM</li>
 </ul>
 <hr>
-<p><a href="/projects/" target="_blank" rel="noopener noreferrer">← Back to Projects</a></p>
+<p><RouteLink to="/projects/projects/">← Back to Projects</RouteLink></p>
 </div></template>
 
 
