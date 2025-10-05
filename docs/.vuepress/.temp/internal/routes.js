@@ -1,10 +1,10 @@
 export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
-  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/home/aso/my-vuepress-site/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"John Doe - Developer Dashboard"} }],
   ["/about.html", { loader: () => import(/* webpackChunkName: "about.html" */"/home/aso/my-vuepress-site/docs/.vuepress/.temp/pages/about.html.js"), meta: {"title":"About"} }],
   ["/contact.html", { loader: () => import(/* webpackChunkName: "contact.html" */"/home/aso/my-vuepress-site/docs/.vuepress/.temp/pages/contact.html.js"), meta: {"title":"Contact"} }],
   ["/get-started.html", { loader: () => import(/* webpackChunkName: "get-started.html" */"/home/aso/my-vuepress-site/docs/.vuepress/.temp/pages/get-started.html.js"), meta: {"title":"Get Started"} }],
+  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/home/aso/my-vuepress-site/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"John Doe - Developer Dashboard"} }],
   ["/stack.html", { loader: () => import(/* webpackChunkName: "stack.html" */"/home/aso/my-vuepress-site/docs/.vuepress/.temp/pages/stack.html.js"), meta: {"title":"Tech Stack"} }],
   ["/projects/", { loader: () => import(/* webpackChunkName: "projects_index.html" */"/home/aso/my-vuepress-site/docs/.vuepress/.temp/pages/projects/index.html.js"), meta: {"title":"Projects"} }],
   ["/projects/insightboard.html", { loader: () => import(/* webpackChunkName: "projects_insightboard.html" */"/home/aso/my-vuepress-site/docs/.vuepress/.temp/pages/projects/insightboard.html.js"), meta: {"title":"InsightBoard - Project Details"} }],
