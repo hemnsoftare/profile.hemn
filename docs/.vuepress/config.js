@@ -5,9 +5,10 @@ import { seoPlugin } from '@vuepress/plugin-seo'
 import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 
 export default defineUserConfig({
+	base: '/portfolio-vuepress/',
 	lang: 'en-US',
-	title: 'John Doe',
-	description: 'Full-Stack Developer Portfolio',
+	title: 'Aso A. Sdiq',
+	description: 'Developer Portfolio',
 	head: [
 		['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
 		['meta', { name: 'theme-color', content: '#0ea5e9' }],
@@ -21,11 +22,11 @@ export default defineUserConfig({
 			{
 				text: 'Dashboard',
 				children: [
-					{ text: '🏠 Home', link: '/' },
-					{ text: '⚙️ Tech Stack', link: '/stack.html' },
-					{ text: '🛠 Projects', link: '/projects/' },
-					{ text: '🙋 About', link: '/about.html' },
-					{ text: '✉️ Contact', link: '/contact.html' },
+					{ text: 'Home', link: '/' },
+					{ text: 'Tech Stack', link: '/stack.html' },
+					{ text: 'Projects', link: '/projects/' },
+					{ text: 'About', link: '/about.html' },
+					{ text: 'Contact', link: '/contact.html' },
 				]
 			}
 		],
