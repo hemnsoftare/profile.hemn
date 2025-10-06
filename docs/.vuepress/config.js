@@ -5,10 +5,9 @@ import { seoPlugin } from '@vuepress/plugin-seo'
 import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 
 export default defineUserConfig({
-	base: '/portfolio-vuepress/',
+	base: '/profile/',
 	lang: 'en-US',
-	title: 'Aso A. Sdiq',
-	description: 'Developer Portfolio',
+	
 	head: [
 		['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
 		['meta', { name: 'theme-color', content: '#0ea5e9' }],
@@ -16,21 +15,16 @@ export default defineUserConfig({
 		['link', { rel: 'canonical', href: 'https://example.com' }],
 	],
 	theme: defaultTheme({
-		logo: '/logo.svg',
-		navbar: false,
-		sidebar: [
-			{
-				text: 'Dashboard',
-				children: [
-					{ text: 'Home', link: '/' },
-					{ text: 'Tech Stack', link: '/stack.html' },
-					{ text: 'Projects', link: '/projects/' },
-					{ text: 'About', link: '/about.html' },
-					{ text: 'Contact', link: '/contact.html' },
-				]
-			}
+		logo: '/images/hemn.png',
+		navbar: [
+			{ text: 'Home', link: '/' },
+			{ text: 'Skills', link: '/stack.html' },
+			{ text: 'Projects', link: '/projects/' },
+			{ text: 'About', link: '/about.html' },
 		],
+		sidebar: false,
 		lastUpdated: false,
+		contributors: false,
 	}),
 	plugins: [
 		seoPlugin({ hostname: 'https://example.com' }),

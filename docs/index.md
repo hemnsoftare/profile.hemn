@@ -1,10 +1,8 @@
 ---
-home: true
-title: John Doe - Developer Dashboard
-heroImage: /logo.svg
-actions: []
-features: []
-footer: Made with ❤️ using VuePress
+
+title: home
+description: Full-Stack developer focused on DX, performance and accessibility
+
 ---
 
 <AppLayout />

@@ -1,4 +1,4 @@
-export const siteData = JSON.parse("{\"base\":\"/portfolio-vuepress/\",\"lang\":\"en-US\",\"title\":\"Aso A. Sdiq\",\"description\":\"Developer Portfolio\",\"head\":[[\"meta\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"meta\",{\"name\":\"theme-color\",\"content\":\"#0ea5e9\"}],[\"link\",{\"rel\":\"icon\",\"href\":\"/favicon.svg\"}],[\"link\",{\"rel\":\"canonical\",\"href\":\"https://example.com\"}]],\"locales\":{}}")
+export const siteData = JSON.parse("{\"base\":\"/profile/\",\"lang\":\"en-US\",\"title\":\"\",\"description\":\"\",\"head\":[[\"meta\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"meta\",{\"name\":\"theme-color\",\"content\":\"#0ea5e9\"}],[\"link\",{\"rel\":\"icon\",\"href\":\"/favicon.svg\"}],[\"link\",{\"rel\":\"canonical\",\"href\":\"https://example.com\"}]],\"locales\":{}}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

@@ -1,9 +1,0 @@
-{
-	"contacts": [
-		{ "label": "Email", "text": "you@example.com", "href": "mailto:you@example.com" },
-		{ "label": "GitHub", "text": "github.com/you", "href": "https://github.com/you" },
-		{ "label": "LinkedIn", "text": "linkedin.com/in/you", "href": "https://linkedin.com/in/you" }
-	],
-	"note": "Prefer email for first contact. I typically reply within 1–2 business days."
-}
-

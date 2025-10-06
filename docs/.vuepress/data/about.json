@@ -1,14 +1,13 @@
 {
-	"intro": "I’m John Doe, a Full-Stack Developer who enjoys crafting performant, accessible web apps.",
-	"highlights": [
-		"Performance-first: ship fast, measure, iterate.",
-		"Accessible by default: semantic HTML, keyboard-friendly, color-contrast aware.",
-		"Maintainable code: strong typing, clear naming, focused components."
-	],
-	"experience": [
-		"Built and maintained SPA/SSG sites with Vue 3 and Vite.",
-		"Designed Node.js backends with PostgreSQL and Prisma.",
-		"Automated CI/CD workflows and preview deployments."
-	]
+  "intro": "I’m Hemn Farhad Ahmad, a Full-Stack Developer passionate about building modern, performant web and mobile apps.",
+  "highlights": [
+    "Frontend-focused: React.js, Next.js, React Native, Vue.js, Nuxt.js, TypeScript.",
+    "Backend solutions: Firebase, Next.js APIs, Nuxt.js backend.",
+    "Clean and maintainable code: reusable components, strong typing, modular structure."
+  ],
+  "experience": [
+    "Built and maintained SPA/SSG sites using React.js, Next.js, and Vue.js.",
+    "Developed mobile apps with React Native and Expo.",
+    "Designed backend services with Firebase, Next.js API routes, and Nuxt.js."
+  ]
 }
-

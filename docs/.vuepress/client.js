@@ -1,11 +1,8 @@
 import { defineClientConfig } from 'vuepress/client'
-import AppLayout from './components/AppLayout.vue'
-import StackList from './components/StackList.vue'
-import ProjectsList from './components/ProjectsList.vue'
-import AboutSection from './components/AboutSection.vue'
-import ContactSection from './components/ContactSection.vue'
-import DashboardHome from './components/DashboardHome.vue'
-import ProjectDetail from './components/ProjectDetail.vue'
+import AppLayout from './pages/ProfilePage.vue'
+import StackList from './pages/SkillsPage.vue'
+import ProjectsList from './pages/ProjectsPage.vue'
+import AboutSection from './pages/AboutPage.vue'
 
 export default defineClientConfig({
   enhance({ app }) {
@@ -13,8 +10,5 @@ export default defineClientConfig({
     app.component('StackList', StackList)
     app.component('ProjectsList', ProjectsList)
     app.component('AboutSection', AboutSection)
-    app.component('ContactSection', ContactSection)
-    app.component('DashboardHome', DashboardHome)
-    app.component('ProjectDetail', ProjectDetail)
   },
 })

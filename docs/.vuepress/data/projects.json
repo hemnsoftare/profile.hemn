@@ -1,50 +1,119 @@
 [
-	{
-		"slug": "taskflow",
-		"title": "TaskFlow",
-		"description": "A productivity app for teams with offline-first sync.",
-		"tech": ["Vue 3", "Vite", "Firebase", "Tailwind CSS"],
-		"details": {
-			"overview": "TaskFlow is a collaborative task management application designed for modern teams. It features real-time synchronization, offline support, and intuitive drag-and-drop interfaces.",
-			"features": [
-				"Real-time collaboration with multiple team members",
-				"Offline-first architecture with automatic sync",
-				"Drag-and-drop task management",
-				"Customizable project boards and workflows",
-				"Advanced filtering and search capabilities",
-				"Mobile-responsive design"
-			],
-			"challenges": [
-				"Implementing reliable offline synchronization",
-				"Optimizing real-time updates for large teams",
-				"Creating intuitive drag-and-drop interactions"
-			],
-			"results": "Reduced team coordination time by 40% and improved task completion rates by 25%."
-		}
-	},
-	{
-		"slug": "insightboard",
-		"title": "InsightBoard",
-		"description": "Lightweight analytics dashboards, ready in minutes.",
-		"tech": ["Vue 3", "Node.js", "PostgreSQL", "Prisma"],
-		"live": "https://example.com/insightboard",
-		"repo": "https://github.com/you/insightboard",
-		"details": {
-			"overview": "InsightBoard provides instant analytics dashboards for businesses of all sizes. Setup takes minutes, not weeks, with pre-built templates and custom data connectors.",
-			"features": [
-				"One-click dashboard creation",
-				"Pre-built templates for common business metrics",
-				"Custom data source connectors",
-				"Real-time data visualization",
-				"Export capabilities (PDF, CSV)",
-				"Role-based access control"
-			],
-			"challenges": [
-				"Building flexible data connectors",
-				"Optimizing query performance for large datasets",
-				"Creating intuitive chart configuration"
-			],
-			"results": "Dashboard setup time reduced from weeks to minutes, serving 500+ active users."
-		}
-	}
+  {
+    "slug": "tech-hiem",
+    "title": "Tech Hiem",
+    "description": "A modern full-stack e-commerce platform allowing users to browse products, manage carts, and checkout securely. Features role-based access, order tracking, and a responsive UI.",
+    "tech": ["Next.js", "React.js", "TypeScript", "Firebase", "Clerk Auth", "Tailwind CSS", "Shadcn UI", "Zustand"],
+    "details": {
+      "overview": "Tech Hiem is a comprehensive e-commerce platform with secure authentication and role-based access. Users can browse products, manage carts, and complete purchases seamlessly, while admins have full control over product and order management.",
+      "features": [
+        "Role-based access: Admin and customer dashboards",
+        "Secure authentication with Clerk Auth",
+        "Responsive UI for mobile and desktop",
+        "Order tracking and management",
+        "State management with Zustand for efficient UI updates",
+        "Integration with Firebase backend and database"
+      ],
+      "challenges": [
+        "Implementing real-time updates for inventory and orders",
+        "Ensuring secure authentication and data privacy",
+        "Creating a responsive and user-friendly interface across devices"
+      ],
+      "results": "Delivered a robust, scalable e-commerce solution with improved user engagement and streamlined admin operations."
+    }
+  },
+  {
+    "slug": "football-barber-club",
+    "title": "Football Barber Club",
+    "description": "A full-stack barber appointment and club management system for handling bookings, staff schedules, and client management with smooth animations.",
+    "tech": ["Next.js", "React.js", "TypeScript", "Firebase", "Clerk Auth", "Tailwind CSS", "Shadcn UI", "Zustand", "Cloudinary", "GSAP"],
+    "details": {
+      "overview": "Football Barber Club is a complete appointment and club management system, enabling users to book services, view schedules, and manage clients efficiently, with smooth animations enhancing the user experience.",
+      "features": [
+        "Online booking and schedule management",
+        "Admin dashboard for staff and client management",
+        "Cloudinary integration for media handling",
+        "Interactive UI with GSAP animations",
+        "State management with Zustand for dynamic updates",
+        "Responsive design for all devices"
+      ],
+      "challenges": [
+        "Managing real-time booking updates",
+        "Integrating smooth animations without performance lag",
+        "Designing intuitive dashboards for admins and users"
+      ],
+      "results": "Improved appointment management efficiency and enhanced client satisfaction through a modern, interactive interface."
+    }
+  },
+  {
+    "slug": "calendar-system-management",
+    "title": "Calendar System Management",
+    "description": "A full-stack calendar and scheduling system allowing users to manage events, collaborate with teams, and integrate with external APIs with real-time notifications.",
+    "tech": ["Next.js", "React.js", "TypeScript", "Auth.js", "Supabase", "Tailwind CSS", "Shadcn UI", "Zustand", "Cloudinary", "GSAP", "Nylas API", "Prisma ORM"],
+    "details": {
+      "overview": "Calendar System Management enables teams to schedule events, manage calendars, and receive real-time notifications. It integrates external APIs and offers advanced filtering and collaboration tools.",
+      "features": [
+        "Team collaboration and event management",
+        "Real-time notifications for updates and reminders",
+        "Integration with Nylas API for email and calendar syncing",
+        "Advanced filtering and search capabilities",
+        "Interactive UI with GSAP animations",
+        "Robust database management with Prisma ORM"
+      ],
+      "challenges": [
+        "Ensuring reliable real-time notifications",
+        "Integrating multiple APIs for seamless functionality",
+        "Creating an intuitive interface for complex schedules"
+      ],
+      "results": "Enhanced team coordination and scheduling efficiency through a highly interactive, real-time calendar system."
+    }
+  },
+  {
+    "slug": "efood",
+    "title": "EFood",
+    "description": "A full-stack food delivery mobile app built with React Native and Expo, including menus, cart management, and admin dashboard for restaurants.",
+    "tech": ["React Native", "Expo", "TypeScript", "Firebase", "Tailwind CSS", "Zustand"],
+    "details": {
+      "overview": "EFood allows users to browse restaurant menus, add items to cart, and place orders via a mobile app. Restaurant admins can manage menu items and track orders efficiently.",
+      "features": [
+        "Mobile-first design with React Native and Expo",
+        "User authentication and data storage with Firebase",
+        "Admin dashboard for restaurant management",
+        "Real-time order tracking",
+        "State management with Zustand",
+        "Clean and responsive UI design"
+      ],
+      "challenges": [
+        "Managing real-time data for orders",
+        "Optimizing mobile performance for smooth UX",
+        "Implementing scalable backend structure with Firebase"
+      ],
+      "results": "Delivered a seamless food delivery experience, improving order accuracy and user satisfaction."
+    }
+  },
+  {
+    "slug": "saya-farmuda",
+    "title": "Saya Farmuda",
+    "description": "A frontend-focused Islamic Hadith project, presenting authentic Hadiths of Prophet Muhammad (PBUH) with a clean UI, easy navigation, and user favorites.",
+    "tech": ["Next.js", "React.js", "TypeScript", "Tailwind CSS", "Zustand"],
+    "details": {
+      "overview": "Saya Farmuda is designed to educate and provide easy access to authentic Hadiths of Prophet Muhammad (PBUH). The project emphasizes clean, readable UI, user-friendly search, and favorites management.",
+      "features": [
+        "Organized Hadiths by category and source",
+        "Search and filter functionality",
+        "Add Hadiths to favorites for quick reference",
+        "Clean, readable, and mobile-responsive UI",
+        "Performance optimization for fast load times",
+        "Frontend-focused for smooth user experience"
+      ],
+      "challenges": [
+        "Displaying a large volume of Hadiths efficiently",
+        "Implementing smooth search and filter features",
+        "Designing a readable and user-friendly interface"
+      ],
+      "results": "A reliable, educational, and user-friendly Hadith platform, promoting Islamic knowledge and accessibility for users."
+    }
+  }
+
+
 ]

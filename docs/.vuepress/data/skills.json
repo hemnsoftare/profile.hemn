@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Frontend Development",
+    "items": [
+      { "name": "JavaScript (ES6+), TypeScript" },
+      { "name": "React.js, Next.js" },
+      { "name": "Vue.js 3, Nuxt.js" },
+      { "name": "React Native" },
+      { "name": "Three.js, GSAP" },
+      { "name": "Redux, Pinia, Zustand" },
+      { "name": "React Router, Vue Router" },
+      { "name": "Vite, Jest, Vue Test Utils" },
+      { "name": "HTML5, CSS3, Sass" },
+      { "name": "Tailwind CSS, Bootstrap, ShadCN UI, Hero UI" },
+      { "name": "Responsive Design, Animations" }
+    ]
+  },
+  {
+    "title": "Backend Development",
+    "items": [
+      { "name": "PHP, Laravel" },
+      { "name": "Node.js" },
+      { "name": "Next.js / Nuxt.js APIs" },
+      { "name": "Laravel Sanctum, Clerk Auth" },
+      { "name": "RESTful APIs, API Resources" },
+      { "name": "Eloquent ORM, Query Builder" },
+      { "name": "Migrations, Seeders, Jobs, Notifications" }
+    ]
+  },
+  {
+    "title": "Database",
+    "items": [
+      { "name": "MySQL" },
+      { "name": "PostgreSQL" },
+      { "name": "Firebase" },
+      { "name": "Supabase" },
+      { "name": "Prisma ORM" },
+      { "name": "Database Design & Normalization" }
+    ]
+  },
+  {
+    "title": "Tooling & DevOps",
+    "items": [
+      { "name": "Git, GitHub, GitLab" },
+      { "name": "Composer, NPM, PNPM" },
+      { "name": "ESLint, Prettier" },
+      { "name": "Vite" },
+      { "name": "Docker (future)" },
+      { "name": "Vercel, Netlify" }
+    ]
+  },
+  {
+    "title": "Soft Skills",
+    "items": [
+      { "name": "Problem Solving & Critical Thinking" },
+      { "name": "Team Collaboration & Communication" },
+      { "name": "Time Management & Organization" },
+      { "name": "Adaptability & Quick Learning" },
+      { "name": "Attention to Detail" },
+      { "name": "Mentoring & Knowledge Sharing" }
+    ]
+  }
+]
